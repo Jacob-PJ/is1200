@@ -1,0 +1,54 @@
+.data
+
+prompt: .asciiz "Enter delay in ms: "
+done: .asciiz "Done"
+
+
+.text
+
+main:
+	li $v0, 4
+	la $a0, prompt
+	syscall
+	
+	li $v0, 5
+	syscall
+	
+	move $a0, $v0
+	li $s0, 0
+	jal	loop		# call hexasc
+	nop		
+	
+	li $v0, 10
+	syscall
+
+
+
+
+loop:
+
+li $s0, 0
+beqz $a0, Exit
+sub $a0, $a0, 1
+bnez $a0, innerLoop
+
+
+
+
+
+innerLoop:
+     
+	beq $s0, 4711, loop
+	addi $s0, $s0,1
+	bne $s0, 4711, innerLoop
+
+
+	
+
+
+
+Exit:
+	li $v0, 4 
+	la $a0, done
+	syscall
+ 	jr $ra

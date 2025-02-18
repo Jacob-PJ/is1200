@@ -1,0 +1,14 @@
+﻿  blocks.c
+C:\Users\jacoa\Desktop\KTH-IS1200-main\blocks.c(6,10): error C1083: Cannot open include file: 'pic32mx.h': No such file or directory
+  data.c
+C:\Users\jacoa\Desktop\KTH-IS1200-main\data.c(7,10): error C1083: Cannot open include file: 'pic32mx.h': No such file or directory
+  functions.c
+C:\Users\jacoa\Desktop\KTH-IS1200-main\functions.c(9,10): error C1083: Cannot open include file: 'pic32mx.h': No such file or directory
+  io.c
+C:\Users\jacoa\Desktop\KTH-IS1200-main\io.c(4,10): error C1083: Cannot open include file: 'pic32mx.h': No such file or directory
+  main.c
+C:\Users\jacoa\Desktop\KTH-IS1200-main\main.c(8,10): error C1083: Cannot open include file: 'pic32mx.h': No such file or directory
+  screens.c
+C:\Users\jacoa\Desktop\KTH-IS1200-main\screens.c(7,10): error C1083: Cannot open include file: 'pic32mx.h': No such file or directory
+  stubs.c
+  Generating Code...
