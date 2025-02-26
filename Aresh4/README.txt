@@ -1,5 +1,5 @@
-Ett projet inför kursen is1200 vid kth. Koden bygger upp ett tetris spel som körs på UNO pic32 microcontroller. 
-Spelet är utväcklat i C och bygger på mips.
+A project for the course IS1200 at KTH. The code builds a Tetris game that runs on a UNO PIC32 microcontroller.
+The game is developed in C and is built on MIPS.
 
 
 
